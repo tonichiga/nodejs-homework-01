@@ -1,5 +1,4 @@
 const path = require("path");
-const argv = process.argv;
 const contactsPath = path.resolve("./db.json");
 const fs = require("fs/promises");
 

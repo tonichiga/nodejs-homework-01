@@ -5,7 +5,6 @@ const {
   addContact,
 } = require("./contacts");
 const { Command } = require("commander");
-const fs = require("fs/promises");
 
 const program = new Command();
 
